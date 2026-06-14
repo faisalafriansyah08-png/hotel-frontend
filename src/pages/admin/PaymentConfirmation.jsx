@@ -4,7 +4,7 @@ import { toast } from 'react-toastify'
 import { FiCheck, FiX, FiEye } from 'react-icons/fi'
 import { formatPrice } from '@utils/formatters'
 
-const API_BASE = import.meta.env.VITE_API_URL?.replace('/api/v1', '') || 'http://localhost:8000'
+const API_BASE = (import.meta.env.VITE_API_URL || '').replace('/api/v1', '')
 
 function PaymentConfirmation() {
   const [payments, setPayments] = useState([])
