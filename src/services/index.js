@@ -1,0 +1,6 @@
+export { default as authService } from './auth'
+export { default as roomsService } from './rooms'
+export { default as bookingsService } from './bookings'
+export { default as paymentsService } from './payments'
+export { default as promosService } from './promos'
+export { default as supportService } from './support'
