@@ -16,7 +16,7 @@ const bookingsService = {
 
   // Get all user bookings
   getUserBookings: async () => {
-    const response = await api.get('/bookings/')
+    const response = await api.get('/bookings')
     return response.data
   },
 
